@@ -1,0 +1,37 @@
+[0.449s] Invoking command in '/home/ivan/AdR/p2_ws/src/p2_kf_adr': PYTHONPATH=/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_adr build --build-base /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build install --record /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log --single-version-externally-managed install_data
+[0.585s] running egg_info
+[0.585s] writing build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO
+[0.585s] writing dependency_links to build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt
+[0.585s] writing entry points to build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt
+[0.585s] writing requirements to build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt
+[0.585s] writing top-level names to build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt
+[0.587s] reading manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.598s] running build_py
+[0.598s] copying p2_kf_adr/kf_estimation_vel.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr
+[0.598s] copying p2_kf_adr/kf_estimation.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr
+[0.598s] copying p2_kf_adr/sensor_utils.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr
+[0.598s] copying p2_kf_adr/motion_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr
+[0.598s] copying p2_kf_adr/filters/kalman_filter.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters
+[0.598s] running install
+[0.598s] running install_lib
+[0.599s] copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation_vel.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[0.599s] copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters/kalman_filter.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters
+[0.599s] copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[0.599s] copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/sensor_utils.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[0.599s] copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/motion_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[0.599s] byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation_vel.py to kf_estimation_vel.cpython-310.pyc
+[0.600s] byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/kalman_filter.py to kalman_filter.cpython-310.pyc
+[0.600s] byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation.py to kf_estimation.cpython-310.pyc
+[0.601s] byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/sensor_utils.py to sensor_utils.cpython-310.pyc
+[0.601s] byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/motion_models.py to motion_models.cpython-310.pyc
+[0.602s] running install_data
+[0.602s] running install_egg_info
+[0.603s] removing '/home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info' (and everything under it)
+[0.603s] Copying build/p2_kf_adr/p2_kf_adr.egg-info to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info
+[0.604s] running install_scripts
+[0.615s] Installing kf_estimation script to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr
+[0.615s] Installing kf_estimation_vel script to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr
+[0.615s] writing list of installed files to '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log'
+[0.631s] Invoked command in '/home/ivan/AdR/p2_ws/src/p2_kf_adr' returned '0': PYTHONPATH=/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_adr build --build-base /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build install --record /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log --single-version-externally-managed install_data

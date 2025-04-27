@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (p2_kf_adr) JobQueued: {'identifier': 'p2_kf_adr', 'dependencies': OrderedDict()}
+[0.000825] (p2_kf_adr) JobStarted: {'identifier': 'p2_kf_adr'}
+[0.099634] (-) TimerEvent: {}
+[0.200096] (-) TimerEvent: {}
+[0.300583] (-) TimerEvent: {}
+[0.400925] (-) TimerEvent: {}
+[0.501273] (-) TimerEvent: {}
+[0.601582] (-) TimerEvent: {}
+[0.701845] (-) TimerEvent: {}
+[0.802450] (-) TimerEvent: {}
+[0.887230] (p2_kf_adr) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/p2_kf_adr', 'build', '--build-base', '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build', 'install', '--record', '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ivan/AdR/p2_ws/src/p2_kf_adr', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en', 'USER': 'ivan', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ivan', 'OLDPWD': '/home/ivan/AdR/p2_ws/src/p2_kf_adr/p2_kf_adr', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'SYSTEMD_EXEC_PID': '6094', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ivan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ivan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Victus-by-HP-Ivan:@/tmp/.ICE-unix/1564,unix/Victus-by-HP-Ivan:/tmp/.ICE-unix/1564', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1ba4fad3_a2f0_4b19_b543_45176b5759c1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.902588] (-) TimerEvent: {}
+[1.003109] (-) TimerEvent: {}
+[1.103416] (-) TimerEvent: {}
+[1.153092] (p2_kf_adr) StdoutLine: {'line': b'running egg_info\n'}
+[1.153848] (p2_kf_adr) StdoutLine: {'line': b'creating build/p2_kf_adr/p2_kf_adr.egg-info\n'}
+[1.154518] (p2_kf_adr) StdoutLine: {'line': b'writing build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO\n'}
+[1.154987] (p2_kf_adr) StdoutLine: {'line': b'writing dependency_links to build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt\n'}
+[1.155220] (p2_kf_adr) StdoutLine: {'line': b'writing entry points to build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt\n'}
+[1.155683] (p2_kf_adr) StdoutLine: {'line': b'writing requirements to build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt\n'}
+[1.155783] (p2_kf_adr) StdoutLine: {'line': b'writing top-level names to build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt\n'}
+[1.156283] (p2_kf_adr) StdoutLine: {'line': b"writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[1.162620] (p2_kf_adr) StdoutLine: {'line': b"reading manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[1.163504] (p2_kf_adr) StdoutLine: {'line': b"writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[1.163769] (p2_kf_adr) StdoutLine: {'line': b'running build\n'}
+[1.163849] (p2_kf_adr) StdoutLine: {'line': b'running build_py\n'}
+[1.164042] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build\n'}
+[1.164176] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib\n'}
+[1.164248] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164294] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/kf_estimation_vel.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164399] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/kf_estimation.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164514] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/sensor_utils.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164578] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/motion_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164636] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/__init__.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164703] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/visualization.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.164881] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/observation_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[1.165049] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[1.165132] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/filters/__init__.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[1.165219] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/filters/kalman_filter.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[1.165613] (p2_kf_adr) StdoutLine: {'line': b'running install\n'}
+[1.166495] (p2_kf_adr) StdoutLine: {'line': b'running install_lib\n'}
+[1.167578] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.167805] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation_vel.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.167902] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[1.167991] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters/__init__.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[1.168079] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters/kalman_filter.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[1.168193] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.168300] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/sensor_utils.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.168433] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/motion_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.168516] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/__init__.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.168592] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/visualization.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.168653] (p2_kf_adr) StdoutLine: {'line': b'copying /home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/observation_models.py -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[1.169789] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation_vel.py to kf_estimation_vel.cpython-310.pyc\n'}
+[1.170532] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/__init__.py to __init__.cpython-310.pyc\n'}
+[1.170699] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/kalman_filter.py to kalman_filter.cpython-310.pyc\n'}
+[1.171365] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation.py to kf_estimation.cpython-310.pyc\n'}
+[1.172119] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/sensor_utils.py to sensor_utils.cpython-310.pyc\n'}
+[1.172782] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/motion_models.py to motion_models.cpython-310.pyc\n'}
+[1.173123] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/__init__.py to __init__.cpython-310.pyc\n'}
+[1.173316] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/visualization.py to visualization.cpython-310.pyc\n'}
+[1.174199] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/observation_models.py to observation_models.cpython-310.pyc\n'}
+[1.174356] (p2_kf_adr) StdoutLine: {'line': b'running install_data\n'}
+[1.174469] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index\n'}
+[1.174796] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index\n'}
+[1.174957] (p2_kf_adr) StdoutLine: {'line': b'creating /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index/packages\n'}
+[1.175013] (p2_kf_adr) StdoutLine: {'line': b'copying resource/p2_kf_adr -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index/packages\n'}
+[1.175059] (p2_kf_adr) StdoutLine: {'line': b'copying package.xml -> /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/share/p2_kf_adr\n'}
+[1.175101] (p2_kf_adr) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.177068] (p2_kf_adr) StdoutLine: {'line': b'Copying build/p2_kf_adr/p2_kf_adr.egg-info to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info\n'}
+[1.178101] (p2_kf_adr) StdoutLine: {'line': b'running install_scripts\n'}
+[1.205154] (p2_kf_adr) StdoutLine: {'line': b'Installing kf_estimation script to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr\n'}
+[1.205586] (-) TimerEvent: {}
+[1.205849] (p2_kf_adr) StdoutLine: {'line': b'Installing kf_estimation_vel script to /home/ivan/AdR/p2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr\n'}
+[1.206011] (p2_kf_adr) StdoutLine: {'line': b"writing list of installed files to '/home/ivan/AdR/p2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log'\n"}
+[1.285696] (p2_kf_adr) CommandEnded: {'returncode': 0}
+[1.305843] (-) TimerEvent: {}
+[1.321084] (p2_kf_adr) JobEnded: {'identifier': 'p2_kf_adr', 'rc': 0}
+[1.322200] (-) EventReactorShutdown: {}
