@@ -1,0 +1,61 @@
+[1.203s] Invoking command in '/home/ivan/p2_kl_ilv': PYTHONPATH=/home/ivan/p2_kl_ilv/build/p2_kf_ilv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_ilv build --build-base /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build install --record /home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log --single-version-externally-managed install_data
+[1.620s] running egg_info
+[1.621s] creating build/p2_kf_ilv/p2_kf_ilv.egg-info
+[1.622s] writing build/p2_kf_ilv/p2_kf_ilv.egg-info/PKG-INFO
+[1.622s] writing dependency_links to build/p2_kf_ilv/p2_kf_ilv.egg-info/dependency_links.txt
+[1.623s] writing entry points to build/p2_kf_ilv/p2_kf_ilv.egg-info/entry_points.txt
+[1.623s] writing requirements to build/p2_kf_ilv/p2_kf_ilv.egg-info/requires.txt
+[1.623s] writing top-level names to build/p2_kf_ilv/p2_kf_ilv.egg-info/top_level.txt
+[1.623s] writing manifest file 'build/p2_kf_ilv/p2_kf_ilv.egg-info/SOURCES.txt'
+[1.628s] reading manifest file 'build/p2_kf_ilv/p2_kf_ilv.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'build/p2_kf_ilv/p2_kf_ilv.egg-info/SOURCES.txt'
+[1.630s] running build
+[1.630s] running build_py
+[1.630s] creating /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build
+[1.631s] creating /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib
+[1.631s] creating /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.631s] copying p2_kf_ilv/kf_estimation_vel.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.631s] copying p2_kf_ilv/kf_estimation.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.631s] copying p2_kf_ilv/sensor_utils.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.632s] copying p2_kf_ilv/motion_models.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.632s] copying p2_kf_ilv/__init__.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.632s] copying p2_kf_ilv/visualization.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.633s] copying p2_kf_ilv/observation_models.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv
+[1.633s] creating /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/filters
+[1.633s] copying p2_kf_ilv/filters/__init__.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/filters
+[1.633s] copying p2_kf_ilv/filters/kalman_filter.py -> /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/filters
+[1.634s] running install
+[1.636s] running install_lib
+[1.637s] creating /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.637s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/kf_estimation_vel.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.638s] creating /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/filters
+[1.638s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/filters/__init__.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/filters
+[1.638s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/filters/kalman_filter.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/filters
+[1.638s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/kf_estimation.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.638s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/sensor_utils.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.639s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/motion_models.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.639s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/__init__.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.639s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/visualization.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.639s] copying /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build/lib/p2_kf_ilv/observation_models.py -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv
+[1.640s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/kf_estimation_vel.py to kf_estimation_vel.cpython-310.pyc
+[1.642s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/filters/__init__.py to __init__.cpython-310.pyc
+[1.642s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/filters/kalman_filter.py to kalman_filter.cpython-310.pyc
+[1.643s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/kf_estimation.py to kf_estimation.cpython-310.pyc
+[1.644s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/sensor_utils.py to sensor_utils.cpython-310.pyc
+[1.645s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/motion_models.py to motion_models.cpython-310.pyc
+[1.646s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/__init__.py to __init__.cpython-310.pyc
+[1.646s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/visualization.py to visualization.cpython-310.pyc
+[1.648s] byte-compiling /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv/observation_models.py to observation_models.cpython-310.pyc
+[1.649s] running install_data
+[1.649s] creating /home/ivan/p2_kl_ilv/install/p2_kf_ilv/share/ament_index
+[1.649s] creating /home/ivan/p2_kl_ilv/install/p2_kf_ilv/share/ament_index/resource_index
+[1.649s] creating /home/ivan/p2_kl_ilv/install/p2_kf_ilv/share/ament_index/resource_index/packages
+[1.649s] copying resource/p2_kf_ilv -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/share/ament_index/resource_index/packages
+[1.650s] copying package.xml -> /home/ivan/p2_kl_ilv/install/p2_kf_ilv/share/p2_kf_ilv
+[1.650s] running install_egg_info
+[1.653s] Copying build/p2_kf_ilv/p2_kf_ilv.egg-info to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv-0.0.0-py3.10.egg-info
+[1.654s] running install_scripts
+[1.690s] Installing kf_estimation script to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/p2_kf_ilv
+[1.690s] Installing kf_estimation_vel script to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/p2_kf_ilv
+[1.691s] writing list of installed files to '/home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log'
+[1.731s] Invoked command in '/home/ivan/p2_kl_ilv' returned '0': PYTHONPATH=/home/ivan/p2_kl_ilv/build/p2_kf_ilv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_ilv build --build-base /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build install --record /home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log --single-version-externally-managed install_data

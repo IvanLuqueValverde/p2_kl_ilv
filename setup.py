@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'p2_kf_adr'
+package_name = 'p2_kf_ilv'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'kf_estimation = p2_kf_adr.kf_estimation:main',
-            'kf_estimation_vel = p2_kf_adr.kf_estimation_vel:main',
+            'kf_estimation = p2_kf_ilv.kf_estimation:main',
+            'kf_estimation_vel = p2_kf_ilv.kf_estimation_vel:main',
         ],
     },
 )

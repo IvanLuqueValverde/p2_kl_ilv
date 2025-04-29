@@ -1,0 +1,22 @@
+[1.095s] Invoking command in '/home/ivan/p2_kl_ilv': PYTHONPATH=/home/ivan/p2_kl_ilv/build/p2_kf_ilv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_ilv build --build-base /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build install --record /home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log --single-version-externally-managed install_data
+[1.409s] running egg_info
+[1.410s] writing build/p2_kf_ilv/p2_kf_ilv.egg-info/PKG-INFO
+[1.410s] writing dependency_links to build/p2_kf_ilv/p2_kf_ilv.egg-info/dependency_links.txt
+[1.411s] writing entry points to build/p2_kf_ilv/p2_kf_ilv.egg-info/entry_points.txt
+[1.411s] writing requirements to build/p2_kf_ilv/p2_kf_ilv.egg-info/requires.txt
+[1.411s] writing top-level names to build/p2_kf_ilv/p2_kf_ilv.egg-info/top_level.txt
+[1.416s] reading manifest file 'build/p2_kf_ilv/p2_kf_ilv.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'build/p2_kf_ilv/p2_kf_ilv.egg-info/SOURCES.txt'
+[1.417s] running build
+[1.417s] running build_py
+[1.418s] running install
+[1.419s] running install_lib
+[1.421s] running install_data
+[1.421s] running install_egg_info
+[1.423s] removing '/home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv-0.0.0-py3.10.egg-info' (and everything under it)
+[1.423s] Copying build/p2_kf_ilv/p2_kf_ilv.egg-info to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages/p2_kf_ilv-0.0.0-py3.10.egg-info
+[1.424s] running install_scripts
+[1.454s] Installing kf_estimation script to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/p2_kf_ilv
+[1.454s] Installing kf_estimation_vel script to /home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/p2_kf_ilv
+[1.455s] writing list of installed files to '/home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log'
+[1.509s] Invoked command in '/home/ivan/p2_kl_ilv' returned '0': PYTHONPATH=/home/ivan/p2_kl_ilv/build/p2_kf_ilv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/p2_kl_ilv/install/p2_kf_ilv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_ilv build --build-base /home/ivan/p2_kl_ilv/build/p2_kf_ilv/build install --record /home/ivan/p2_kl_ilv/build/p2_kf_ilv/install.log --single-version-externally-managed install_data

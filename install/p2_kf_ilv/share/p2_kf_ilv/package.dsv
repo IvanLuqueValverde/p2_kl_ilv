@@ -1,0 +1,6 @@
+source;share/p2_kf_ilv/hook/pythonpath.ps1
+source;share/p2_kf_ilv/hook/pythonpath.dsv
+source;share/p2_kf_ilv/hook/pythonpath.sh
+source;share/p2_kf_ilv/hook/ament_prefix_path.ps1
+source;share/p2_kf_ilv/hook/ament_prefix_path.dsv
+source;share/p2_kf_ilv/hook/ament_prefix_path.sh

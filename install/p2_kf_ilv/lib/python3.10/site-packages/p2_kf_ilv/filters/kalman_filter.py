@@ -81,6 +81,7 @@ class KalmanFilter_2:
         self.mu = A @ self.mu
         self.Sigma = A @ self.Sigma @ A.T + self.R
 
+        # Devuelve mu como vector plano para facilitar su uso fuera
         self.mu = self.mu.flatten()
         return self.mu, self.Sigma
 
